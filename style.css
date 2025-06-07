@@ -32,7 +32,7 @@ p {
     color: var(--bg-nav-menu);
     background-color: var(--bg-nav);
     animation: StickyNav linear forwards;
-    animation-timeline: view();
+    animation-timing-function: calc(100vh - 150px);
 }
 
 .container {
