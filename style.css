@@ -28,6 +28,7 @@ p {
     position: sticky;
     z-index: 0;
     top: 0;
+    animation: StickyNav 1s linear forwards;
 }
 
 .container {
@@ -79,4 +80,11 @@ p {
 
 .hero .car1 img {
     width: auto;
+}
+
+
+@keyframes StickyNav {
+    100% {
+        box-shadow: 0 0 0 .5 red;
+    }
 }
