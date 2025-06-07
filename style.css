@@ -7,6 +7,7 @@
 :root {
     --margin-bottom: 10px;
     --bg-nav: #058378c2;
+    --bg-nav-menu: #6c9410c2;
     --primary-color: #dbd3d3;
     --bg-color-main: #f7f8f7;
 }
@@ -24,11 +25,13 @@ p {
 }
 
 .navbar {
-    background-color: var(--bg-nav);
+
     position: sticky;
     z-index: 0;
     top: 0;
-    animation: StickyNav 1s linear forwards;
+    color: var(--bg-nav-menu);
+    background-color: var(--bg-nav);
+    animation: StickyNav 3s linear forwards;
 }
 
 .container {
@@ -85,6 +88,8 @@ p {
 
 @keyframes StickyNav {
     100% {
+        color: var(--bg-nav);
+        background-color: var(--bg-nav-menu);
         box-shadow: 0 0 0 .5 red;
     }
 }
