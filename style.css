@@ -75,3 +75,7 @@ p {
     padding-right: 4rem; */
 
 }
+
+.hero .car1 img {
+    max-width: 1100px;
+}
