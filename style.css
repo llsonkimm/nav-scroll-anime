@@ -68,9 +68,9 @@ p {
     text-align: center;
 }
 
-.hero .car1 img {
-    /* margin-inline: auto; */
-    /* padding-left: 4rem;
-    padding-right: 4rem; */
+.hero .car1 {
+    margin-inline: auto;
+    padding-left: 4rem;
+    padding-right: 4rem;
 
 }
