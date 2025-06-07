@@ -72,5 +72,5 @@ p {
     /* margin-inline: auto; */
     /* padding-left: 4rem;
     padding-right: 4rem; */
-    min-width: 100%;
+    width: fit-content;
 }
