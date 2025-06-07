@@ -64,14 +64,13 @@ p {
 
 .hero {
     margin-inline: auto;
-    /* max-width: 100%; */
-    display: grid;
-    align-items: center;
+    max-width: 100%;
+    text-align: center;
 }
 
 .hero .car1 img {
     /* margin-inline: auto; */
     /* padding-left: 4rem;
     padding-right: 4rem; */
-    /* width: auto; */
+
 }
