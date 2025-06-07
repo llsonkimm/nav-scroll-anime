@@ -61,7 +61,7 @@ p {
 }
 
 .hero img {
-    margin-right: auto;
-    margin-left: auto;
+    padding-right: auto;
+    padding-left: auto;
     width: 800px;
 }
