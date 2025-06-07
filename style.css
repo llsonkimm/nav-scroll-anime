@@ -65,6 +65,7 @@ p {
 .hero {
     margin-inline: auto;
     max-width: 100%;
+    text-align: center;
 }
 
 .hero .car1 img {
