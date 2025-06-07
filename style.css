@@ -61,6 +61,7 @@ p {
 }
 
 .hero img {
-    margin-inline: auto;
-    width: 500px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 800px;
 }
