@@ -95,12 +95,5 @@ p {
     100% {
         color: var(--bg-nav);
         background-color: var(--bg-nav-menu);
-        box-shadow: 0 0 0 .5 red;
-    }
-
-    100% {
-        color: var(--bg-nav-menu);
-        background-color: var(--bg-nav);
-        box-shadow: 0 0 0 .5 red;
     }
 }
