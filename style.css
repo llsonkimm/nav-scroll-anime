@@ -64,11 +64,12 @@ p {
 
 .hero {
     margin-inline: auto;
+    max-width: 100%;
 }
 
 .hero img {
     /* margin-inline: auto; */
-    padding-left: 4rem;
-    padding-right: 4rem;
-    width: 1000px;
+    /* padding-left: 4rem;
+    padding-right: 4rem; */
+    object-fit: cover;
 }
