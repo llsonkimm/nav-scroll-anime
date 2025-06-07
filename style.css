@@ -62,8 +62,12 @@ p {
     color: var(--primary-color);
 }
 
-.hero img {
+.hero {
     margin-inline: auto;
+}
+
+.hero img {
+    /* margin-inline: auto; */
     padding-left: 4rem;
     padding-right: 4rem;
     width: 1000px;
