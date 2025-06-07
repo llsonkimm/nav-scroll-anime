@@ -31,7 +31,7 @@ p {
     top: 0;
     color: var(--bg-nav-menu);
     background-color: var(--bg-nav);
-    animation: StickyNav 5s forwards;
+    animation: StickyNav 5s;
     animation-range-start: 100vh;
     animation-range-end: 120vh;
     /* animation-timing-function: calc(100vh - 150px); */
@@ -90,9 +90,17 @@ p {
 
 
 @keyframes StickyNav {
+
+    0%,
     100% {
         color: var(--bg-nav);
         background-color: var(--bg-nav-menu);
+        box-shadow: 0 0 0 .5 red;
+    }
+
+    100% {
+        color: var(--bg-nav-menu);
+        background-color: var(--bg-nav);
         box-shadow: 0 0 0 .5 red;
     }
 }
