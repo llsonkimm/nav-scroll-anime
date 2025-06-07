@@ -71,5 +71,5 @@ p {
     /* margin-inline: auto; */
     /* padding-left: 4rem;
     padding-right: 4rem; */
-    object-fit: fill;
+    width: fit-content;
 }
