@@ -66,6 +66,7 @@ p {
     margin-inline: auto;
     /* max-width: 100%; */
     display: grid;
+    align-items: center;
 }
 
 .hero .car1 img {
