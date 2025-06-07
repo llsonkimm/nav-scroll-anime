@@ -31,7 +31,8 @@ p {
     top: 0;
     color: var(--bg-nav-menu);
     background-color: var(--bg-nav);
-    animation: StickyNav 3s linear forwards;
+    animation: StickyNav linear forwards;
+    animation-timeline: view();
 }
 
 .container {
