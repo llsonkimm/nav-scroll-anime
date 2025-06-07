@@ -64,7 +64,7 @@ p {
 
 .hero {
     margin-inline: auto;
-    max-width: 100%;
+    /* max-width: 100%; */
     text-align: center;
 }
 
@@ -72,5 +72,5 @@ p {
     /* margin-inline: auto; */
     /* padding-left: 4rem;
     padding-right: 4rem; */
-    width: fit-content;
+    width: auto;
 }
