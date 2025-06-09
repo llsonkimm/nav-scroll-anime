@@ -94,6 +94,7 @@ p {
     opacity: 0;
     scale: 0.8;
     animation: fade-in 500ms forwards;
+    animation-direction: alternate-reverse;
     animation-timeline: view();
     /* animation-range-start: 500px;
     animation-range-end: 100px; */
