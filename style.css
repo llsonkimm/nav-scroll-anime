@@ -95,7 +95,7 @@ p {
     scale: 0.8;
     animation: fade-in 5s forwards;
     animation-direction: normal;
-    animation-play-state: running;
+    animation-play-state: inherit;
     animation-timeline: view();
     /* animation-range-start: 500px;
     animation-range-end: 100px; */
