@@ -31,7 +31,7 @@ p {
     top: -5rem;
     color: var(--bg-nav-menu);
     background-color: var(--bg-nav);
-    animation: StickyNav 3s linear forwards;
+    animation: StickyNav 3s forwards;
     animation-range-start: 100vh;
     animation-range-end: 120vh;
     /* animation-timing-function: calc(100vh - 150px); */
@@ -93,7 +93,7 @@ p {
     width: auto;
     opacity: 0;
     scale: 0.8;
-    animation: fade-in linear forwards;
+    animation: fade-in 500ms forwards;
     animation-timeline: view();
     /* animation-range-start: 500px;
     animation-range-end: 100px; */
