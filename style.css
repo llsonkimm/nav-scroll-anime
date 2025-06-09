@@ -69,6 +69,11 @@ p {
     color: var(--primary-color);
 }
 
+.header .container {
+    animation: fade-out linear forwards;
+    animation-timeline: view();
+}
+
 .hero {
     margin-inline: auto;
     /* max-width: 100%; */
@@ -93,7 +98,7 @@ p {
     width: auto;
     opacity: 0;
     scale: 0.8;
-    animation: fade-in 5s forwards;
+    animation: image-animation 5s forwards;
     animation-direction: normal;
     animation-play-state: inherit;
     animation-timeline: view();
@@ -116,5 +121,23 @@ p {
     to {
         scale: 1;
         opacity: 1;
+    }
+}
+
+@keyframes fade-away {
+    to {
+        opacity: 0;
+    }
+}
+
+@keyframes image-animation {
+    25% {
+        opacity: 1;
+    }
+
+    85%,
+    100% {
+        opacity: 0.8;
+        scale: 3;
     }
 }
