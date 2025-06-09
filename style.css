@@ -31,7 +31,7 @@ p {
     top: -5rem;
     color: var(--bg-nav-menu);
     background-color: var(--bg-nav);
-    animation: StickyNav 250ms linear forwards;
+    animation: StickyNav 1s linear forwards;
     animation-range-start: 100vh;
     animation-range-end: 120vh;
     /* animation-timing-function: calc(100vh - 150px); */
