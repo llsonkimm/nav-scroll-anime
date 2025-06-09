@@ -84,6 +84,11 @@ p {
 
 }
 
+.hero .car2 {
+    margin: 0 auto;
+    text-align: center;
+}
+
 .hero .car2 img {
     width: auto;
     opacity: 0;
