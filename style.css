@@ -103,6 +103,7 @@ p {
 @keyframes StickyNav {
 
     100% {
+        top: 0;
         color: var(--bg-nav);
         background-color: var(--bg-nav-menu);
     }
