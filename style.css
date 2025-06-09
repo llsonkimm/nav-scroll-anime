@@ -84,8 +84,14 @@ p {
 
 }
 
-.hero .car1 img {
+.hero .car2 img {
     width: auto;
+    opacity: 0;
+    scale: 0.8;
+    animation: fade-in linear forwards;
+    animation-timeline: view();
+    animation-range-start: contain;
+    animation-range-end: contain;
 }
 
 
@@ -94,5 +100,12 @@ p {
     100% {
         color: var(--bg-nav);
         background-color: var(--bg-nav-menu);
+    }
+}
+
+@keyframes fade-in {
+    to {
+        scale: 1;
+        opacity: 1;
     }
 }
