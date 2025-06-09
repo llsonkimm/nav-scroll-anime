@@ -104,7 +104,7 @@ p {
     animation-timeline: view();
     /* animation-range-start: 500px;
     animation-range-end: 100px; */
-    animation-range: entry 200px;
+    animation-range: exit;
 }
 
 
